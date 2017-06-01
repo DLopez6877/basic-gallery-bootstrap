@@ -1,9 +1,20 @@
 .container {
   width: 100%;
-  padding: 0;
+  padding: 0 20px;
 }
 
 .navbar {
   height: 100px;
+  background-color: #d9e020;
+  margin: 0 -20px 30px -20px;
+  border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+  color: #2b5235;
+  font-size: 2em;
+}
+
+.panel-body {
   background-color: #d9e020;
 }
